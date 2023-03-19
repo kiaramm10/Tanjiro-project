@@ -1,0 +1,132 @@
+body{
+    background: linear-gradient(180deg, #160D27 0%, #2C1A4D 100%);
+}
+
+#contacto{
+    margin: 0px auto;
+    margin-left: 20mm;
+    margin-right: 20mm;
+}
+.cnt{
+    text-align: center;
+    margin-top: 10mm;
+    font-weight: bolder;
+}
+
+.redes {
+    list-style: none;
+    text-decoration: none;
+    font-weight: normal;
+    flex: auto;
+    display: flex;
+    align-items: left;
+    justify-content: space-evenly;
+    margin-top: 10mm;
+  }
+  .buttons {
+    background: radial-gradient(50% 50% at 50% 50%, #8C68CD 74.48%, rgba(140, 104, 205, 0) 100%);
+    border: 1px solid #FFFFFF;
+    width: 62.74px;
+    height: 63px;
+    color: white;
+    padding: 2px;
+    margin: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 50%;
+    justify-content: space-evenly;
+    display: block;
+    text-align: center;
+    line-height: 55px;
+  }
+  .fot{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+ #poli{
+    text-align: center;
+    margin-left: 10mm;
+    margin-top: 30mm;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+ }
+ h6{
+    font-size: 12px;
+ }
+ #enviar{
+    background: linear-gradient(180deg, #6F42C1 0%, rgba(111, 66, 193, 0) 100%);
+    border-radius: 20.5px;
+    border: linear-gradient(white, white);
+    width: 145px;
+    height: 41px;
+ }
+ .form-control{
+    background-color: #C5B3E6;
+ }
+ .tel{
+    display: none;
+    list-style: none;
+    text-decoration: none;
+
+ }
+ @media screen and (max-width: 800px) {
+    .ubi{
+        display: none;
+    }
+    .tel{
+        display: flex;
+        font-size: 15px;
+        align-items: left;
+        justify-content: space-evenly;
+        padding: 3px;
+        margin-right: 5mm;
+    }
+    #contacto{
+        margin: 0px auto;
+        margin-left: 10mm;
+        margin-right: 10mm;
+    }
+    .cnt{
+        margin-top:40mm;
+    }
+   
+ }
+
+ @media screen and (max-width: 375px) {
+    .fot{
+        margin: 0 auto;
+        font-size: 10px;
+        
+    }
+    .cnt{
+        margin-top:40mm;
+    }
+    #contacto{
+        margin: 0px auto;
+        margin-left: 10mm;
+        margin-right: 10mm;
+    }
+    
+    .buttons{
+        width: 50.04px;
+        height: 50.11px;
+        margin: 0 auto;
+        line-height: 45px;
+        margin-right: 6mm;
+    }
+    .ubi{
+        display: none;
+    }
+    .tel{
+        display: flex;
+        font-size: 9px;
+        align-items: left;
+        justify-content: space-evenly;
+        padding: 3px;
+        margin-right: 5mm;
+    }
+    
+}

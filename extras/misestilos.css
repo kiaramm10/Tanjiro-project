@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap");
+
+body{
+   font-family: 'Poppins', sans-serif;
+}
+
+#tt{
+   text-align: left;
+   color: #2D2D2D; 
+   font-size: 40px;
+   font-weight: 700;
+   margin-top: 10mm;
+   margin-left: 10mm;
+ }
+ 
+ .p1{
+   margin-left: 10mm;
+   margin-right: 10mm;
+   list-style: square;
+   color: #6C6C6C;
+   font-size: 16px;
+ 
+ }
+ .sec2{
+   margin-left: 10mm;
+   color: #6C6C6C;
+   margin-right: 10mm;
+   font-size: 16px;
+ 
+ }
+ .en2{
+   margin-left: 10mm;
+   color: #2D2D2D;
+   margin-right: 10mm;
+   font-size: 28px;
+ }
+ #back{
+   color: #E5EDF5;
+   margin-left: 10mm;
+   margin-top: 5mm;
+   font-size: 14px;
+   background-color: #5C32AC ;
+   border-radius: 20.5px;
+   border: linear-gradient(white, white);
+   width: 145px;
+   height: 41px;
+ }
+ #lim{
+   margin-left: 10mm;
+   color: #2D2D2D;
+   margin-right: 10mm;
+   font-size: 28px;
+ }
+ .fot{
+   margin-top: 30mm;
+   width: 100%;
+   background-color: #2B2040;
+   margin-bottom: -20mm;
+   color: #E5EDF5;
+
+ }
+ #poli{
+   text-align: center;
+   margin-left: 10mm;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 20px;
+}
+.nav-link{
+   color: #FFFFFF;
+   text-align: center;
+
+   
+}
